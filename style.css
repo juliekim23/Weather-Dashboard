@@ -1,0 +1,68 @@
+body { 
+    font-family: 'Carme', sans-serif;
+    font-size: 16px
+}
+
+header {
+    background-image: url(pexels-rodrigo-burgos-s-62275.jpg);
+    background-position: center;
+    color:black;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+    height: 100px;
+    padding-top: 0px;
+
+}
+
+h1{ 
+    font-size: 25px;
+    margin: 7px;
+    display: block;
+}
+
+button { 
+    display: block;
+    margin: 7px;
+    margin-left: 10px;
+    align-content: center;
+}
+
+#searchbutton{
+    display: inline;
+    margin: 3px;
+}
+
+input {
+    margin: 7px;
+}
+.cityInfo { }
+
+.left {
+    flex: auto;
+    float: left;
+    padding-right: 10px;
+}
+
+.right {
+    flex: auto;
+    float: right;
+}
+
+.right {
+    float: right;
+}
+
+.box {
+   height: 250px;
+   width: 300px;
+   background-color: maroon;
+   color: white;
+   border-radius: 10px;
+   display: inline-block;
+
+}
+
+.week{
+    margin-top: 10px;
+}
