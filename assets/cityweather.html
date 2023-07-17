@@ -14,19 +14,13 @@
     <header>Weather Dashboard</header>
     <section class = "left">
         <div>
-            <h1>Search for a city:</h1>
-            <input>
-            <button id = 'searchbutton'>Search</button>
+            <form id = 'searchform'>
+                <input id = "cityinput" type = "text" placeholder="Search for a city">
+                <button id = 'searchbutton'>Search</button>
+            </form>
         </div>
         <div class = "col-12 col-md-4 col-lg-3 search-history left">
-            <button class = "city">Atlanta</button>
-            <button class = "city">Denver</button>
-            <button class = "city">Seattle</button>
-            <button class = "city">San Francisco</button>
-            <button class = "city">Orlando</button>
-            <button class = "city">New York</button>
-            <button class = "city">Chicago</button>
-            <button class = "city">Austin</button>
+            <button class = "history">Atlanta</button>
         </div>
         <div class = " col-12 col-md-8 col-lg-9 cityinfo right">
             <h2 id = 'cityname'>City Name</h2>
@@ -79,6 +73,7 @@
         </div>
     </section>
     <script src="./script.js"></script>
+    <script src="search.js"></script>
 </body>
 </html>
 
